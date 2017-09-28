@@ -29,9 +29,9 @@ class SettingsViewController: UIViewController {
        
         
         let toolbar = UIToolbar(frame: CGRect(x: 0, y: 0, width: view.frame.size.width, height: 44))
-        let okButton = UIBarButtonItem(barButtonSystemItem: .done, target: nil, action: nil)
+        let okButton = UIBarButtonItem(barButtonSystemItem: .done, target: self, action: #selector(done))
         let spaceButton = UIBarButtonItem(barButtonSystemItem: .flexibleSpace, target: nil, action: nil)
-        let CancelButton = UIBarButtonItem(barButtonSystemItem: .cancel, target: nil, action: nil)
+        let CancelButton = UIBarButtonItem(barButtonSystemItem: .cancel, target: self, action: #selector(cancel))
         
         toolbar.items = [CancelButton, spaceButton, okButton]
         
@@ -39,6 +39,16 @@ class SettingsViewController: UIViewController {
         tfGenre.inputAccessoryView = toolbar
 
         // Do any additional setup after loading the view.
+    }
+    
+    func done() {
+        tfGenre.text = genres[pickerView.selectedRow(inComponent: 0)]
+        UserDefaults.standard.set(tfGenre.text!, forKey: "genre")
+        cancel()
+    }
+    
+    func cancel() {
+        tfGenre.resignFirstResponder()
     }
     
     override func viewWillDisappear(_ animated: Bool) {
@@ -88,7 +98,11 @@ extension SettingsViewController:UIPickerViewDelegate, UIPickerViewDataSource {
 }
 
 
-
+extension SettingsViewController: UITextFieldDelegate {
+    func textField(_ textField: UITextField, shouldChangeCharactersIn range: NSRange, replacementString string: String) -> Bool {
+        return false
+    }
+}
 
 
 

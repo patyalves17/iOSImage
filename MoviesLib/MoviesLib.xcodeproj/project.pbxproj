@@ -51,6 +51,7 @@
 		AC70C4F81E743C94005E598A /* TheaterAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC70C4F71E743C94005E598A /* TheaterAnnotation.swift */; };
 		AC70C4FE1E748175005E598A /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC70C4FD1E748175005E598A /* WebViewController.swift */; };
 		ACEF21071F7C629800AE1D1C /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACEF21061F7C629800AE1D1C /* SettingsViewController.swift */; };
+		ACEF21091F7C75CF00AE1D1C /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = ACEF21081F7C75CF00AE1D1C /* Settings.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -100,6 +101,7 @@
 		AC70C4F71E743C94005E598A /* TheaterAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TheaterAnnotation.swift; sourceTree = "<group>"; };
 		AC70C4FD1E748175005E598A /* WebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
 		ACEF21061F7C629800AE1D1C /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		ACEF21081F7C75CF00AE1D1C /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,6 +134,7 @@
 		07780D401E6D860E00BC3630 = {
 			isa = PBXGroup;
 			children = (
+				ACEF21081F7C75CF00AE1D1C /* Settings.bundle */,
 				07780D4B1E6D860E00BC3630 /* MoviesLib */,
 				07780D4A1E6D860E00BC3630 /* Products */,
 			);
@@ -301,6 +304,7 @@
 				AC64CEE81E70C98E00FD5EFF /* madmax-wide.jpg in Resources */,
 				AC64CEE71E70C98E00FD5EFF /* madmax-small.jpg in Resources */,
 				AC64CEE51E70C98E00FD5EFF /* logan-small.jpg in Resources */,
+				ACEF21091F7C75CF00AE1D1C /* Settings.bundle in Resources */,
 				AC64CEDE1E70C98E00FD5EFF /* deadpool-wide.jpg in Resources */,
 				07780D541E6D860E00BC3630 /* Assets.xcassets in Resources */,
 				AC64CEE41E70C98E00FD5EFF /* legobatman-wide.jpg in Resources */,
