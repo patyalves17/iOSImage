@@ -14,6 +14,7 @@
 		ACEF21211F7C7A8B00AE1D1C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACEF211F1F7C7A8B00AE1D1C /* LaunchScreen.storyboard */; };
 		ACEF212C1F7C7A8C00AE1D1C /* LiveRenderingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACEF212B1F7C7A8C00AE1D1C /* LiveRenderingTests.swift */; };
 		ACEF21371F7C7A8C00AE1D1C /* LiveRenderingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACEF21361F7C7A8C00AE1D1C /* LiveRenderingUITests.swift */; };
+		ACEF21451F7C805300AE1D1C /* RoundedImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACEF21441F7C805300AE1D1C /* RoundedImageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		ACEF21321F7C7A8C00AE1D1C /* LiveRenderingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LiveRenderingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACEF21361F7C7A8C00AE1D1C /* LiveRenderingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveRenderingUITests.swift; sourceTree = "<group>"; };
 		ACEF21381F7C7A8C00AE1D1C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACEF21441F7C805300AE1D1C /* RoundedImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundedImageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				ACEF21161F7C7A8B00AE1D1C /* AppDelegate.swift */,
 				ACEF21181F7C7A8B00AE1D1C /* ViewController.swift */,
 				ACEF211A1F7C7A8B00AE1D1C /* Main.storyboard */,
+				ACEF21441F7C805300AE1D1C /* RoundedImageView.swift */,
 				ACEF211D1F7C7A8B00AE1D1C /* Assets.xcassets */,
 				ACEF211F1F7C7A8B00AE1D1C /* LaunchScreen.storyboard */,
 				ACEF21221F7C7A8B00AE1D1C /* Info.plist */,
@@ -261,6 +264,7 @@
 			files = (
 				ACEF21191F7C7A8B00AE1D1C /* ViewController.swift in Sources */,
 				ACEF21171F7C7A8B00AE1D1C /* AppDelegate.swift in Sources */,
+				ACEF21451F7C805300AE1D1C /* RoundedImageView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
