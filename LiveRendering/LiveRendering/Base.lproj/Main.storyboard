@@ -33,10 +33,10 @@
                                         <real key="value" value="124"/>
                                     </userDefinedRuntimeAttribute>
                                     <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
-                                        <real key="value" value="2"/>
+                                        <real key="value" value="9"/>
                                     </userDefinedRuntimeAttribute>
                                     <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
-                                        <color key="value" cocoaTouchSystemColor="darkTextColor"/>
+                                        <color key="value" red="1" green="0.47276557222585402" blue="0.38356043936910444" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </imageView>
@@ -62,6 +62,11 @@
                                 <state key="normal" title="LOGIN">
                                     <color key="titleColor" red="1" green="0.98702034402911798" blue="0.97670762523437715" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="18"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.5607843137254902" green="0.73725490196078436" blue="0.90980392156862744" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
